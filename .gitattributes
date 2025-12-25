@@ -1,6 +1,4 @@
-
 * text=auto
-
 *.cs      text eol=lf
 *.aspx    text eol=lf
 *.aspx.cs text eol=lf
@@ -14,7 +12,6 @@
 *.js      text eol=lf
 *.html    text eol=lf
 *.md      text eol=lf
-
 *.png     binary
 *.jpg     binary
 *.jpeg    binary
@@ -23,14 +20,12 @@
 *.pdf     binary
 *.zip     binary
 *.dll     binary
-
-
-
+*.css   linguist-vendored
+*.js    linguist-vendored
+*.html  linguist-vendored
+*.aspx  linguist-vendored
+*.cs          linguist-detectable=true
+*.aspx.cs     linguist-detectable=true
+*.designer.cs linguist-detectable=true
+*.csproj      linguist-detectable=true
 README.md linguist-documentation=true
-
-*.cs         linguist-language=C#
-*.aspx.cs    linguist-language=C#
-*.designer.cs linguist-language=C#
-*.csproj     linguist-language=C#
-
-*.aspx       linguist-language=HTML
