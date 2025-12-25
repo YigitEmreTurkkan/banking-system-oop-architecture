@@ -1,0 +1,36 @@
+
+* text=auto
+
+*.cs      text eol=lf
+*.aspx    text eol=lf
+*.aspx.cs text eol=lf
+*.designer.cs text eol=lf
+*.config  text eol=lf
+*.csproj  text eol=lf
+*.sln     text eol=lf
+*.xml     text eol=lf
+*.resx    text eol=lf
+*.css     text eol=lf
+*.js      text eol=lf
+*.html    text eol=lf
+*.md      text eol=lf
+
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.gif     binary
+*.ico     binary
+*.pdf     binary
+*.zip     binary
+*.dll     binary
+
+
+
+README.md linguist-documentation=true
+
+*.cs         linguist-language=C#
+*.aspx.cs    linguist-language=C#
+*.designer.cs linguist-language=C#
+*.csproj     linguist-language=C#
+
+*.aspx       linguist-language=HTML
