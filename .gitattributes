@@ -29,3 +29,9 @@
 *.designer.cs linguist-detectable=true
 *.csproj      linguist-detectable=true
 README.md linguist-documentation=true
+*.xml      linguist-vendored
+*.config   linguist-vendored
+*.resx     linguist-vendored
+*.csproj   linguist-vendored
+*.sln      linguist-vendored
+style.css linguist-detectable=true
